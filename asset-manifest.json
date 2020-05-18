@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-memory-test/static/css/main.5f361e03.chunk.css",
+    "main.js": "/react-memory-test/static/js/main.49288c1c.chunk.js",
+    "main.js.map": "/react-memory-test/static/js/main.49288c1c.chunk.js.map",
+    "runtime-main.js": "/react-memory-test/static/js/runtime-main.7128a991.js",
+    "runtime-main.js.map": "/react-memory-test/static/js/runtime-main.7128a991.js.map",
+    "static/js/2.dcbb66d7.chunk.js": "/react-memory-test/static/js/2.dcbb66d7.chunk.js",
+    "static/js/2.dcbb66d7.chunk.js.map": "/react-memory-test/static/js/2.dcbb66d7.chunk.js.map",
+    "index.html": "/react-memory-test/index.html",
+    "precache-manifest.3c9895b6e2a9dd7b8cec5aeb29bba78d.js": "/react-memory-test/precache-manifest.3c9895b6e2a9dd7b8cec5aeb29bba78d.js",
+    "service-worker.js": "/react-memory-test/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/react-memory-test/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.dcbb66d7.chunk.js.LICENSE.txt": "/react-memory-test/static/js/2.dcbb66d7.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/react-memory-test/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7128a991.js",
+    "static/js/2.dcbb66d7.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.49288c1c.chunk.js"
+  ]
+}
