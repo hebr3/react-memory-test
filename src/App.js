@@ -1,20 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { range } from "ramda";
+import shuffle from "./utils/shuffle";
 import "./App.css";
 
 function App() {
-  const cells = range(0, 9);
+  const cells = shuffle(range(0, 9));
   return (
     <div className="App">
       <header className="App-header">
         <h4>Memory Test</h4>
       </header>
       <div className="board">
-        {cells.map((i) => (
-          <div className="cell" key={i}>
-            {i}
-          </div>
-        ))}
+        {cells &&
+          cells.map((i) => (
+            <div className={i < 4 ? "cell-active" : "cell"} key={i}>
+              {i}
+            </div>
+          ))}
       </div>
     </div>
   );

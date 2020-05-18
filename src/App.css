@@ -22,4 +22,14 @@ body {
 .cell {
   border: 1px solid white;
   border-radius: 5px;
+  color: #282c34;
+}
+
+.cell-active {
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 3rem;
+  color: black;
+  background-color: gray;
+  padding: 1rem;
 }
