@@ -4,7 +4,7 @@ import shuffle from "./utils/shuffle";
 import "./App.css";
 
 function App() {
-  const cells = shuffle(range(0, 9));
+  const cells = shuffle(range(1, 10));
   return (
     <div className="App">
       <header className="App-header">
@@ -13,7 +13,7 @@ function App() {
       <div className="board">
         {cells &&
           cells.map((i) => (
-            <div className={i < 4 ? "cell-active" : "cell"} key={i}>
+            <div className={i < 5 ? "cell-active" : "cell"} key={i}>
               {i}
             </div>
           ))}
