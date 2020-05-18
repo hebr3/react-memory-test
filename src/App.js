@@ -10,7 +10,9 @@ function App() {
       </header>
       <div className="board">
         {cells.map((i) => (
-          <div key={i}>{i}</div>
+          <div className="cell" key={i}>
+            {i}
+          </div>
         ))}
       </div>
     </div>
