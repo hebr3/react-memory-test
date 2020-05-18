@@ -1,8 +1,9 @@
 import React from "react";
+import { range } from "ramda";
 import "./App.css";
 
 function App() {
-  const cells = [0, 1, 2, 3, 4, 5, 6, 7, 8];
+  const cells = range(0, 9);
   return (
     <div className="App">
       <header className="App-header">
