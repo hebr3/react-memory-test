@@ -10,3 +10,10 @@ body {
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
