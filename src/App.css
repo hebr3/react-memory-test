@@ -14,7 +14,6 @@ body {
 
 .board {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
@@ -22,10 +21,31 @@ body {
 .cell {
   border: 1px solid white;
   border-radius: 5px;
+  font-size: 1rem;
   color: #282c34;
+  background-color: #282c34;
+  padding: 1rem;
 }
 
 .cell-active {
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 3rem;
+  color: black;
+  background-color: gray;
+  padding: 1rem;
+}
+
+.cell-click {
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 3rem;
+  color: black;
+  background-color: gray;
+  padding: 1rem;
+}
+
+.cell-wrong {
   border: 1px solid white;
   border-radius: 5px;
   font-size: 3rem;
